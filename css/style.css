@@ -1,0 +1,156 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+
+.encabezado-img {
+    width: 10%;
+}
+
+
+nav {
+    display: flex;
+    background-color: rgb(153, 178, 189);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 47%;
+    padding: 1rem;
+}
+
+.titulo-principal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+
+main div p {
+    width: 500px;
+    text-align: center;
+    margin-left: 45rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.encuesta {
+    text-align: center;
+    margin: 100px;
+}
+
+main div iframe {
+    margin: 1rem;
+
+}
+
+main div h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* footer */
+.pie-de-pagina {
+    background-color: rgb(153, 178, 189);
+    display: grid;
+    grid-template-areas:
+    "redes-sociales" 
+    "copy"
+    ;
+    justify-content: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+    
+}
+
+.redes {
+    grid-area: redes-sociales;
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+footer div a {
+    color: black;
+}
+
+.pie-de-pagina p {
+    grid-area: copy;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Media Querys hasta 720px */
+
+@media screen and (max-width: 720px) {
+    nav ul li a {
+        font-size: 1rem;
+        
+    }
+    
+    .titulo-principal{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    main img {
+        width: 55%;
+        padding: 0.8rem;
+    }
+
+    main div h2 {
+        font-size: 1rem;
+    }
+
+    .redes {
+        font-size: 1rem;
+    }
+
+    .pie-de-pagina p {
+        font-size: 1rem;
+    }
+}
