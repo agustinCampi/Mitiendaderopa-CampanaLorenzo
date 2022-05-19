@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link de css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- link de libreria AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Mi Tienda de Ropa</title>
 </head>
 
 <body>
 
     <header class="encabezado">
-        
+
         <nav>
 
             <img src="./img/LOGO.png" alt="logo del sitio" class="encabezado-img">
@@ -36,9 +38,9 @@
 
         </div>
 
-        
-        <img src="./img/ropa.jpg" alt="ropa colgada de la nueva coleccion" class="ropa">
-       
+
+        <img data-aos="flip-left" src="./img/ropa.jpg" alt="ropa colgada de la nueva coleccion" class="ropa">
+
     </main>
 
     <footer class="pie-de-pagina">
@@ -47,20 +49,25 @@
             <a href="https://www.instagram.com">
                 <i class="bi bi-instagram"></i>
             </a>
-            
+
             <a href="https://www.instagram.com">
                 <i class="bi bi-facebook"></i>
             </a>
-    
+
             <a href="https://www.instagram.com">
                 <i class="bi bi-twitter"></i>
             </a>
-        </div>        
-        
+        </div>
+
         <p>&copy Agustin Campaña Lorenzo, 2022</p>
 
     </footer>
-
+    <!-- Antes de cerrar el body pego mis scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- inicializar AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
