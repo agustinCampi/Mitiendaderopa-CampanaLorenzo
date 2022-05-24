@@ -31,8 +31,7 @@ nav {
 .navbar {
     list-style: none;
     display: flex;
-    gap: 1rem;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -74,15 +73,20 @@ main div p {
     margin-bottom: 50px;
 }
 
+.ropa{
+    width: 45%;
+}
+
 .encuesta {
     text-align: center;
     margin: 100px;
 }
 
 main div iframe {
-    margin: 1rem;
-
-}
+    margin-left: 38.5%;
+     
+ 
+ }
 
 main div h2 {
     text-align: center;
@@ -90,6 +94,8 @@ main div h2 {
 }
 
 /* footer */
+
+
 .pie-de-pagina {
     background-color: rgb(153, 178, 189);
     display: grid;

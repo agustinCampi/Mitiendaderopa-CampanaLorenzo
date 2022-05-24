@@ -5,61 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de css Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- link de css -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos</title>
 </head>
 
-<body> 
+<body>
 
-    <header class="encabezado">
-        
-        <nav>
+    <div class="container-fluid">
+        <header>
 
-            <img src="../img/LOGO.png" alt="logo del sitio" class="encabezado-img">
+            <div class="row">
+                <nav>
 
-            <ul class="navbar">
-                <li> <a href="../index.html">Home</a></li>
-                <li> <a href="./productos.html">Productos</a></li>
-                <li> <a href="./sale.html">Sale</a></li>
-                <li> <a href="./contacto.html">Contacto</a></li>
-                <li> <a href="./nosotros.html">Nosotros</a></li>
-            </ul>
+                    <img src="../img/LOGO.png" alt="logo del sitio" class="col-sm-3 col-md-6 encabezado-img">
 
-        </nav>
+                    <ul class="col-sm-9 col-md-3 navbar">
+                        <li> <a href="../index.html">Home</a></li>
+                        <li> <a href="./productos.html">Productos</a></li>
+                        <li> <a href="./sale.html">Sale</a></li>
+                        <li> <a href="./contacto.html">Contacto</a></li>
+                        <li> <a href="./nosotros.html">Nosotros</a></li>
+                    </ul>
 
-    </header>
+                </nav>
+            </div>
 
-    <main>
-        <div>
-            <h1 class="titulo-principal" >Productos </h1>
-            <h2>Nueva Coleccion</h2>
-            <iframe width="560" height="315"src="https://www.youtube.com/embed/qkMrd5wNQOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>            
+        </header>
 
-    </main>
+        <main class="row">
+            <div>
+                <h1 class="titulo-principal">Productos </h1>
+                <h2>Nueva Coleccion</h2>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qkMrd5wNQOo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
 
-    <footer class="pie-de-pagina">
+        </main>
 
-        <div class="redes">
-            <a href="https://www.instagram.com">
-                <i class="bi bi-instagram"></i>
-            </a>
-            
-            <a href="https://www.instagram.com">
-                <i class="bi bi-facebook"></i>
-            </a>
-    
-            <a href="https://www.instagram.com">
-                <i class="bi bi-twitter"></i>
-            </a>
-        </div>        
-        
-        <p>&copy Agustin Campaña Lorenzo, 2022</p>
+        <footer class="row">
 
-    </footer>
-            
+            <div class="pie-de-pagina">
+                <div class="redes">
+                    <a href="https://www.instagram.com">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
 
 
+                <p>&copy Agustin Campaña Lorenzo, 2022</p>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <!-- JS BOOTSTRAP -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
