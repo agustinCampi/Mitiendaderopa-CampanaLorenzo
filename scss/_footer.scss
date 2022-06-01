@@ -1,0 +1,35 @@
+footer{
+    background-color: rgb(153, 178, 189);
+        display: grid;
+        grid-template-areas:
+        "redes-sociales" 
+        "copy"
+        ;
+        justify-content: center;
+        grid-gap: 1rem;
+        padding: 1rem;
+        padding-bottom: 0.3rem;
+    .redes {
+        grid-area: redes-sociales;
+        font-size: 2rem;
+        display: flex;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+    
+    
+    
+
+}
+
+footer div a {
+    color: black;
+}
+
+.pie-de-pagina p {
+    grid-area: copy;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
