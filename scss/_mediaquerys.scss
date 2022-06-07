@@ -1,0 +1,37 @@
+@media screen and (max-width: 720px) {
+    nav{
+        ul{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    
+    .titulo-principal {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    main{
+        img{
+            width: 55%;
+        padding: 0.8rem;
+        }
+        div{
+            h2{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+
+    .redes {
+        font-size: 1rem;
+    }
+    
+    .pie-de-pagina p {
+        font-size: 1rem;
+    }
+}
